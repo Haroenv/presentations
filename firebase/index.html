@@ -1,41 +1,22 @@
-<html>
-
-<script type="text/javascript">
-
-function detectBrowser()
-{
-	/*
-    var fallback = true;
-    
-    if (navigator && navigator.vendor) {
-        if (navigator.vendor.search("Apple") != -1) {
-            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,'$1'),0);
-                if (vers >= 532) {
-                    fallback = false;
-                }
-        }
-    }
-    
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    if (fallback) {
-        window.location.replace( cropped + "assets/fallback/index.html" );
-    }
-    else {
-        window.location.replace( cropped + "assets/player/KeynoteDHTMLPlayer.html" );
-    }
-    */
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
-
-}
-
-</script>
-
-<body bgcolor="black" onload="detectBrowser()">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Presentations</title>
+  <style>
+  body {
+    font-family: -apple-system, sans-serif;
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+  <h1>Firebase</h1>
+  <p>By <a href="https://haroen.me">Haroen Viaene</a> and <a href="https://weyts.xyz">Arnaud Weyts</a></p>
+  <ul>
+    <li><a href="firebase.key">keynote</a></li>
+    <li><a href="presentation">online</a></li>
+  </ul>
 </body>
-
 </html>
