@@ -1,41 +1,204 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="slides.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
 
-<script type="text/javascript">
+<body>
+  <article class="slide">
+    <img class="slide-image" src="images/images.001.png" />
+    <div class="slide-annotations">
 
-function detectBrowser()
-{
-	/*
-    var fallback = true;
-    
-    if (navigator && navigator.vendor) {
-        if (navigator.vendor.search("Apple") != -1) {
-            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,'$1'),0);
-                if (vers >= 532) {
-                    fallback = false;
-                }
-        }
-    }
-    
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    if (fallback) {
-        window.location.replace( cropped + "assets/fallback/index.html" );
-    }
-    else {
-        window.location.replace( cropped + "assets/player/KeynoteDHTMLPlayer.html" );
-    }
-    */
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+      <p>Given by Haroen Viaene, 21 September 2016 for FreeCodeCamp Ghent</p>
 
-}
+      <p>inspired by Tracy Osborn</p>
 
-</script>
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.002.png" />
+    <div class="slide-annotations">
 
-<body bgcolor="black" onload="detectBrowser()">
+      <p>Clutter is something which is the reason of most designs that can be improved</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.003.png" />
+    <div class="slide-annotations">
+
+      <p>Let’s take a look at this bad design and try to improve it.</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/KgNRpy" target="_blank">codepen.io/Haroenv/pen/KgNRpy</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.004.png" />
+    <div class="slide-annotations">
+
+      <p>First improvement, the grid and alignment</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.005.png" />
+    <div class="slide-annotations">
+
+      <p>let’s turn this thing</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/KgNRpy" target="_blank">http://codepen.io/Haroenv/pen/KgNRpy</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.006.png" />
+    <div class="slide-annotations">
+
+      <p>into this thing, where we have even spacing, and generous margins</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/ozYdZg" target="_blank">http://codepen.io/Haroenv/pen/ozYdZg</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.007.png" />
+    <div class="slide-annotations">
+
+      <p>fonts are fun, use them!</p>
+
+      <p>But use them sparingly. Use just one or two of them, and try to stick to system fonts as much as possible to avoid FOIT and FOUT</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.008.png" />
+    <div class="slide-annotations">
+
+      <p>So this will turn into</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/ozYdZg" target="_blank">codepen.io/Haroenv/pen/ozYdZg</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.009.png" />
+    <div class="slide-annotations">
+
+      <p>this, where we only use system fonts (in this case San Francisco, with fallbacks for other environments, like Roboto …) </p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/wzojPA" target="_blank">codepen.io/Haroenv/pen/wzojPA</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.010.png" />
+    <div class="slide-annotations">
+
+      <p>don’t you all love colours? I do, but these tools</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.011.png" />
+    <div class="slide-annotations">
+
+      <p>They’re so incredibly hard 😔</p>
+
+      <p>I can only make bad combinations with them somehow</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.012.png" />
+    <div class="slide-annotations">
+
+      <p>But look at <a href="https://randoma11y.com" target="_blank">https://randoma11y.com</a>, great fitting colour combinations for free</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.013.png" />
+    <div class="slide-annotations">
+
+      <p>Let’s use less colours here</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/wzojPA" target="_blank">http://codepen.io/Haroenv/pen/wzojPA</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.014.png" />
+    <div class="slide-annotations">
+
+      <p>One colour is enough accent, so the buttons actually stand out!</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/VKmxxa" target="_blank">codepen.io/Haroenv/pen/VKmxxa</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.015.png" />
+    <div class="slide-annotations">
+
+      <p>copy is the most important part of a site, the design is supposed to support the actual content on the site</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.016.png" />
+    <div class="slide-annotations">
+
+      <p>Let’s make this make more sense</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/VKmxxa" target="_blank">codepen.io/Haroenv/pen/VKmxxa</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.017.png" />
+    <div class="slide-annotations">
+
+      <p>Shorter sentences, &lt;strong&gt; for emphasis</p>
+
+      <p><a href="http://codepen.io/Haroenv/pen/amBGQb" target="_blank">codepen.io/Haroenv/pen/amBGQb</a> </p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.018.png" />
+    <div class="slide-annotations">
+
+      <p>Don’t try to reinvent the wheel all the time, look at other people</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.019.png" />
+    <div class="slide-annotations">
+
+      <p>Like for example on <a href="http://productpages.xyz" target="_blank">productpages.xyz</a> by Thomas Chrétien</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.020.png" />
+    <div class="slide-annotations">
+
+      <p>Even this page isn’t invented by myself, it was mostly inspired/rehashed content by Tracy Osborn, when I saw her speak at View Source 2016 in Berlin.</p>
+
+    </div>
+  </article>
+  <article class="slide">
+    <img class="slide-image" src="images/images.021.png" />
+    <div class="slide-annotations">
+
+      <p>You can find this talk at <a href="http://haroen.me/presentations" target="_blank">haroen.me/presentations</a></p>
+
+    </div>
+  </article>
 </body>
-
 </html>
+
