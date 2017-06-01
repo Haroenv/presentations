@@ -14,3 +14,5 @@ By [Haroen Viaene](https://haroen.me)
     * [Flexbox](en/flexbox) (2016-06-30)
     * [GitHub projects](en/github) (2016-07-11)
     * [Design for non-designers](en/design) (2016-09-21)
+
+# [CFPs](cfps)
