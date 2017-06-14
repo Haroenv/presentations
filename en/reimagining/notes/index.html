@@ -1,0 +1,380 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reimagining instantsearch</title>
+    <link rel="stylesheet" href="base.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="web.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="white.css" type="text/css" media="screen">
+</head>
+<body>
+
+    <h1>reimagining instantsearch</h1>
+
+    <div class="slides">
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.001.jpg" alt="Image of slide number 1" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.002.jpg" alt="Image of slide number 2" />
+            </div>
+            <div class="slide-notes">
+                      <p>This internship is done at Algolia, a Search as a Service startup in Paris. Search as a Service means that Algolia is a platform on which your data is replicated in data structures which are efficient to search data from. My internal mentor is Joris Maervoet, and my mentor at Algolia was Vincent Voyer.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.003.jpg" alt="Image of slide number 3" />
+            </div>
+            <div class="slide-notes">
+                      <p>This presentation starts with an introduction on how to search with Algolia.</p>
+
+      <p>That is augmented by a research project in which these principles are executed in a real project.</p>
+
+      <p>Then a detailed view of how search user interfaces are made is gone through</p>
+
+      <p>and to finish, how this changes with InstantSearch Core</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.004.jpg" alt="Image of slide number 4" />
+            </div>
+            <div class="slide-notes">
+                      <p>Let’s start with explaining how to use Algolia.</p>
+
+      <p>Algolia is a Search as a Service startup.</p>
+
+      <p>That means that to be able to search in your date reliably and fast there are three steps.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.005.jpg" alt="Image of slide number 5" />
+            </div>
+            <div class="slide-notes">
+                      <p>The first step is synchronising your data with Algolia. This can be done with libraries that are made by Algolia or third party, but also by uploading a JSON or using the API. </p>
+
+      <p>When data is uploaded to Algolia, behind the scenes an index is being built. An index is a data structure, basically a big linked list, that breaks up words in their components to get a structure which is really fast to search in.</p>
+
+      <p>The second step is settings. Settings that can be set on an index include which attributes can be searched in, their tie-breaking order etc.</p>
+
+      <p>What we’re left with is the runtime for Algolia. Algolia doesn’t just expose an API to search in, we also make libraries to make search interfaces.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.006.jpg" alt="Image of slide number 6" />
+            </div>
+            <div class="slide-notes">
+                      <p>For this research, everything that is done at indexing time is considered a solved problem. We’ll in detail about the search interfaces.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.007.jpg" alt="Image of slide number 7" />
+            </div>
+            <div class="slide-notes">
+                      <p>To completely understand a search interface, it’s very important to actually make a big search interface. The one I built is for the website of Yarn. Yarn is a package manager by Facebook, Google and contributors.</p>
+
+      <p>The website has a search interface made by Algolia.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.008.jpg" alt="Image of slide number 8" />
+            </div>
+            <div class="slide-notes">
+                      <p>In this interface, you can look for popular packages like babel, webpack, react and lodash. Almost every library in JavaScript is available in the npm and Yarn registries. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.009.jpg" alt="Image of slide number 9" />
+            </div>
+            <div class="slide-notes">
+                      <p>The Yarn website also has a detail page for each package. This shows information in the Algolia index, but data from GitHub and other sources.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.010.jpg" alt="Image of slide number 10" />
+            </div>
+            <div class="slide-notes">
+                      <p>It’s also completely internationalised in four languages.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.011.jpg" alt="Image of slide number 11" />
+            </div>
+            <div class="slide-notes">
+                      <p>Let’s take a step back and reflect. How are these search interfaces with Algolia made? </p>
+
+      <p>There are three major steps, defined by the Algolia library used.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.012.jpg" alt="Image of slide number 12" />
+            </div>
+            <div class="slide-notes">
+                      <p>The most bare-bones search you’ll find is by using the API client. While it does some interesting things like retrying several IPs, in the end it’s just calling an endpoint with the data you say. You can search multiple indices at the same time if needed, as well as pass any Algolia parameter in the request object. Here things like DISTINCT, filters etc. can be used.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.013.jpg" alt="Image of slide number 13" />
+            </div>
+            <div class="slide-notes">
+                      <p>To go a step further, the JavaScript helper was was made out of a part of the API client in 2015. It’s goal is twofold. Firstly to have a single point of truth where the previous result is always available, as well as a way to query that state. Secondly it has extra API entries to make things like hierarchical refinements possible. These concepts are great, but a bit hard to grasp, and have complex names which doesn’t help in discoverability.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.014.jpg" alt="Image of slide number 14" />
+            </div>
+            <div class="slide-notes">
+                      <p>To solve that, a new family of libraries called InstantSearch was made. It focuses on a search interface, by providing search results and ways to refine them with things like a refinement list, pagination etc. A version of InstantSearch exists for Vanilla JavaScript, React, Vue and in the future frameworks like Angular.</p>
+
+      <p>It allows users to focus on their content and how their interface looks, rather than focusing on technical details of dealing with a search API.</p>
+
+      <p>InstantSearch makes use of the JavaScript helper, but some problems arise</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.015.jpg" alt="Image of slide number 15" />
+            </div>
+            <div class="slide-notes">
+                      <p>A lot of duplication is seen when making new versions of InstantSearch, the JavaScript Helper can’t simply be used anymore, since it’s too far away from the components. InstantSearch core is a new library to replace the level of abstraction by the JavaScript helper by a new layer. It exposes a general state container for everything, and reactive containers that match with each InstantSearch component.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.016.jpg" alt="Image of slide number 16" />
+            </div>
+            <div class="slide-notes">
+                      <p>But first, how does InstantSearch work? Each InstantSearch library has two main concepts: widgets and connectors. Widgets are full-featured components. They have an opinionated structure that is great for most use-cases, yet from time to time third-party components need to be used. An autocomplete is a great time to use a connector. Here a third party mention component is used (like the input on Twitter where you have a dropdown if you type @). A autocomplete connector is used, where the results are being shown as a suggestion as soon as @ is typed. And when a character is typed, the “refine()” function of Algolia is triggered with the current query, then new results will come into the hits, and subsequently the suggestions.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.017.jpg" alt="Image of slide number 17" />
+            </div>
+            <div class="slide-notes">
+                      <p>As said, every widget in InstantSearch has a connector. there are also a few connectors that don’t have widgets, like AutoComplete.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.018.jpg" alt="Image of slide number 18" />
+            </div>
+            <div class="slide-notes">
+                      <p>In InstantSearch Core, each of these connectors has a matching refinement. While the connectors each are tied to a widget, they can have a higher level API than a way to set a certain parameter. Each of these refinements is an atom that takes care of a single parameter. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.019.jpg" alt="Image of slide number 19" />
+            </div>
+            <div class="slide-notes">
+                      <p>Multiple of these refinements that are enabled are grouped inside a Store. This store also holds parameters that are set outside of a component, as well as the most recent results.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.020.jpg" alt="Image of slide number 20" />
+            </div>
+            <div class="slide-notes">
+                      <p>There are three main ways to get notified of changes in this store. They align with several ways of transferring data that are used in three main frameworks. </p>
+
+      <p>The current state is always available via a getter. A getter is a special kind of function that allows anyone to do store.state. Vue has a special way of using these getters efficiently. </p>
+
+      <p>Every time a change happens, all subscribed listeners will be called with the new state. That can then be used to rerender the components.</p>
+
+      <p>Similar to subscriptions are Observables. They are a meta-syntax over subscriptions, and are on its way to become a standard in the coming years, yet you can already use it right now with libraries like RxJS. Angular has this RxJS library built-in, and thus works well with Observables out of the box.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.021.jpg" alt="Image of slide number 21" />
+            </div>
+            <div class="slide-notes">
+                      <p>As said earlier, both a InstantSearch instance and a refinement can be subscribed to. Both inherit from a main “store” factory function and allow to get and set the state in specific ways.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.022.jpg" alt="Image of slide number 22" />
+            </div>
+            <div class="slide-notes">
+                      <p>To be able to send requests, a subscription is made to the InstantSearch instance. It will send requests whenever needed and finally update the state with the new results.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.023.jpg" alt="Image of slide number 23" />
+            </div>
+            <div class="slide-notes">
+                      <p>InstantSearch is a very powerful concept because it gives the power of Algolia to people without needing to grasp every little detail.</p>
+
+      <p>To be able to work well, it should work great with every framework under the sun, the first three here are made, all the other will come in the future.</p>
+
+      <p>A core library to get as smart as possible reusability will be imperative in getting these integrations done fast and impactful</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.024.jpg" alt="Image of slide number 24" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.025.jpg" alt="Image of slide number 25" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.026.jpg" alt="Image of slide number 26" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.027.jpg" alt="Image of slide number 27" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.028.jpg" alt="Image of slide number 28" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.029.jpg" alt="Image of slide number 29" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.030.jpg" alt="Image of slide number 30" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.031.jpg" alt="Image of slide number 31" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <p class="credits">Made with <a href="https://keynote-extractor.com">Keynote Extractor</a>.</p>
+
+</body>
+</html>
