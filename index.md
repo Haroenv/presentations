@@ -8,6 +8,7 @@ By [Haroen Viaene](https://haroen.me)
 
 * 🇫🇷
     * [Firebase](fr/firebase) (2016-04-18)
+    * [A clock so fast it got banned from GitHub](fr/fast-clock) (2017-06-28)    
 * 🇬🇧
     * [Gulp](en/gulp) (2016-04-28)
     * [Firebase](en/firebase) (2016-06-30)
