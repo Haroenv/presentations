@@ -30,8 +30,10 @@ Here I maintain my CFPs
   function openDetails() {
     const others = document.querySelectorAll('details');
     others.forEach(detail => detail.removeAttribute('open'));
-    const details = document.querySelector(`${location.hash} details`);
-    details.setAttribute('open', true);
+    if (location.hash) {
+      const details = document.querySelector(`${location.hash} details`);
+      details.setAttribute('open', true);
+    }
   }
   window.addEventListener('hashchange', openDetails);
   openDetails();
