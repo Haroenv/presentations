@@ -15,7 +15,7 @@ Find out how the Yarn search became a possibility, from replicating npm in Algol
 
 Depending on some other factors, the public announcement of the free to use Yarn search API might happen here or at another event, but it's going to be part of the focus.
 
-I was an intern from February to May at Algolia, responsible for search on the Yarn website, the npm ↔️ Algolia replicator and the detail pages of the packages, like <https://yarnpkg.com/en/package/react>
+I was an intern from February to May at Algolia, responsible for search on the Yarn website, the npm ↔️ Algolia replicator and the detail pages of the packages, like [yarn.pm/react](https://yarn.pm/react)
 
 ### Bio
 

@@ -17,7 +17,7 @@ Here I maintain my CFPs
 {% for page in site.pages %}
   {% if page.type == 'cfp' %}
   <article id="{{page.title | downcase | replace: ' ', '-'}}" class="cfp">
-    <a href="#{{page.title | downcase | replace: ' ', '-'}}">🔗</a>
+    <a href="#{{page.title | downcase | replace: ' ', '-'}}" class="perma">🔗</a>
     <details>
     <summary><h3>{{page.title}}</h3></summary>
     {{page.content | markdownify}}
