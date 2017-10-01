@@ -1,6 +1,5 @@
 # Presentations
 
-Here I will put some of the presentations I've given:
+Some of the presentations and talks I've given. I also have future ideas for talks as CFPs saved here. 
 
-* [Firebase (🇫🇷)](firebase)
-* [Gulp 🇬🇧](gulp)
+[haroen.me/presentations](https://haroen.me/presentations)
