@@ -9,6 +9,7 @@ By [Haroen Viaene](https://haroen.me)
 Talks and presentations done in recent times.
 
 * 🇬🇧
+    * [Canceling long-running operations](en/canceling-async) (2018-01-25)
     * [A clock so fast it got banned from GitHub](en/fast-clock) (2017-09-16)
     * [Reimagining InstantSearch as a framework-agnostic library](en/reimagining) (2017-06-14)
     * [Design for non-designers](en/design) (2016-09-21)
