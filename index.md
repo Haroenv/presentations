@@ -10,6 +10,7 @@ Talks and presentations done in recent times.
 
 * 🇬🇧
 
+  * [making search on Yarn](en/yarn-search) (2018-03-28)
   * [You're probably making an API client](en/api-client) (2018-01-31)
   * [Canceling long-running operations](en/canceling-async) (2018-01-25)
   * [A clock so fast it got banned from GitHub](en/fast-clock) (2017-09-16)
