@@ -9,6 +9,7 @@ By [Haroen Viaene](https://haroen.me)
 Talks and presentations done in recent times.
 
 * 🇬🇧
+  * [Why is there a new version of Vue InstantSearch?](en/why-new-version) (2018-08-16)
   * [You're probably making an API client (Conf)](en/api-clients-odessa) (2018-07-08)
   * [making search on Yarn](en/yarn-search) (2018-03-28)
   * [You're probably making an API client (Meetup)](en/api-client) (2018-01-31)
