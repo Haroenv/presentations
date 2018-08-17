@@ -1,5 +1,3 @@
-
-
 ---
 layout: default
 title: Why is there a new version of Vue InstantSearch?
