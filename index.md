@@ -10,6 +10,7 @@ Talks and presentations done in recent times.
 
 - 🇬🇧
 
+  - [How does search actually work (IronHack)](en/how-does-search-work-ironhack) (2018-11-26)
   - [You're probably making an API client (Artsy Lunch & Learn)](en/api-clients-artsy) (2018-08-30)
   - [Why is there a new version of Vue InstantSearch?](en/why-new-version) (2018-08-16)
   - [You're probably making an API client (Odessa JS)](en/api-clients-odessa) (2018-07-08)
