@@ -10,6 +10,7 @@ Talks and presentations done in recent times.
 
 - 🇬🇧
 
+  - [Search for a Gatsby site](en/gatsby-algolia) (2019-03-07)
   - [How does search actually work (IronHack)](en/how-does-search-work-ironhack) (2018-11-26)
   - [You're probably making an API client (Artsy Lunch & Learn)](en/api-clients-artsy) (2018-08-30)
   - [Why is there a new version of Vue InstantSearch?](en/why-new-version) (2018-08-16)
