@@ -10,6 +10,7 @@ Talks and presentations done in recent times.
 
 - 🇬🇧
 
+  - [Abstract Components](en/abstract-components) (2019-04-24)
   - [Search for a Gatsby site](en/gatsby-algolia) (2019-03-07)
   - [How does search actually work (IronHack)](en/how-does-search-work-ironhack) (2018-11-26)
   - [You're probably making an API client (Artsy Lunch & Learn)](en/api-clients-artsy) (2018-08-30)
