@@ -10,6 +10,7 @@ Talks and presentations done in recent times.
 
 - 🇬🇧
 
+  - [Abstract Components (JSConf BE)](en/abstract-components-2) (2019-06-21)
   - [Abstract Components](en/abstract-components) (2019-04-24)
   - [Search for a Gatsby site](en/gatsby-algolia) (2019-03-07)
   - [How does search actually work (IronHack)](en/how-does-search-work-ironhack) (2018-11-26)
