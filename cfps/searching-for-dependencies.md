@@ -19,4 +19,4 @@ I was an intern from February to May at Algolia, responsible for search on the Y
 
 ### Bio
 
-Maintaining front-end libraries at Algolia like React InstantSearch after doing an internship focused around research and the Yarn search experience
+Maintaining front-end libraries at Algolia like React InstantSearch and the Yarn search experience
