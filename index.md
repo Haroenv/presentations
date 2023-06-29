@@ -10,6 +10,7 @@ Talks and presentations done in recent times.
 
 - 🇬🇧
 
+  - [What's new in InstantSearch](en/whats-new-instantsearch) (2023-06-28)
   - [You're probably making an API client (BucharestJS)](en/api-clients-bucharest) (2021-02-24)
   - [Transforming code to other code](en/transforming-code) (2020-04-14)
   - [Abstract Components (JSConf BE)](en/abstract-components-2) (2019-06-21)
