@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Why is there a new version of Vue InstantSearch?
+date: 2018-08-16
 ---
-
-# Why is there a new version of Vue InstantSearch?
 
 [←](../..)
 

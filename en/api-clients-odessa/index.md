@@ -1,9 +1,8 @@
 ---
 layout: default
-title: You're probably making an API client
+title: You're probably making an API client (Odessa JS)
+date: 2018-07-08
 ---
-
-# You're probably making an API client
 
 [←](../..)
 

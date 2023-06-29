@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Design for non-designers
+date: 2016-09-21
 ---
-
-# Design for non-designers
 
 [←](../..)
 

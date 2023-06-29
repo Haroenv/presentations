@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Abstract Components
+date: 2019-04-24
 ---
-
-# Abstract Components
 
 [←](../..)
 

@@ -1,9 +1,8 @@
 ---
 layout: default
-title: GitHub
+title: GitHub projects
+date: 2016-07-11
 ---
-
-# GitHub
 
 [←](../..)
 

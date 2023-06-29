@@ -1,11 +1,12 @@
 ---
 layout: default
-title: What's new in InstantSearch
+title: What's new in InstantSearch?
+date: 2023-06-28
 ---
 
-# What's new in InstantSearch
-
 [←](../..)
+
+In this session, we’ll go over the latest features in InstantSearch, and how they can help you build better search experiences. We’ll cover simplified events, optimistic UI and modern templates.
 
 By [Haroen Viaene](https://haroen.me) at [Algolia DevCon 2023](https://www.algolia.com/devcon/) June 2023
 

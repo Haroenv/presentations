@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Gulp
+date: 2016-04-28
 ---
-
-# Gulp
 
 [←](../..)
 

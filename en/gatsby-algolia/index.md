@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Search for a Gatsby site
+date: 2019-03-07
 ---
-
-# Search for a Gatsby site
 
 [←](../..)
 

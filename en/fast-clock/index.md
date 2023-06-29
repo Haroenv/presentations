@@ -1,9 +1,8 @@
 ---
 layout: default
 title: A clock so fast it got banned from GitHub
+date: 2017-09-16
 ---
-
-# A clock so fast it got banned from GitHub
 
 [←](../..)
 

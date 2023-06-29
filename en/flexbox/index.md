@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Flexbox
+date: 2016-06-30
 ---
 
 # Flexbox

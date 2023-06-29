@@ -1,9 +1,8 @@
 ---
 layout: default
 title: making search on Yarn
+date: 2018-03-28
 ---
-
-# making search on Yarn
 
 [←](../..)
 

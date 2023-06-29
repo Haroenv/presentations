@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Abstract Components
+title: Abstract Components (JSConf BE)
+date: 2019-06-21
 ---
-
-# Abstract Components
 
 [←](../..)
 

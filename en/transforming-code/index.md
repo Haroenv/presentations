@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Transforming code to other code
+date: 2020-04-14
 ---
-
-# Transforming code to other code
 
 [←](../..)
 

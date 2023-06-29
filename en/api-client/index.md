@@ -1,9 +1,8 @@
 ---
 layout: default
-title: You're probably making an API client
+title: You're probably making an API client (Paris JS)
+date: 2018-01-31
 ---
-
-# You're probably making an API client
 
 [←](../..)
 

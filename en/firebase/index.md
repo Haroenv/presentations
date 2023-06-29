@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Firebase
+date: 2016-06-30
 ---
-
-# Firebase
 
 [←](../..)
 

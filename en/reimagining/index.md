@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Reimagining InstantSearch.js as a framework-agnostic library
+title: Reimagining InstantSearch as a framework-agnostic library
+date: 2017-06-14
 ---
-
-# Reimagining InstantSearch.js as a framework-agnostic library
 
 [←](../..)
 

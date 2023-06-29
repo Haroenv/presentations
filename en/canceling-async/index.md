@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Canceling long-running operations
+date: 2018-01-25
 ---
-
-# Canceling long-running operations
 
 [←](../..)
 

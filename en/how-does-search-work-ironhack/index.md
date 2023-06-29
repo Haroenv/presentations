@@ -1,9 +1,8 @@
 ---
 layout: default
 title: How does search actually work (IronHack)
+date: 2018-11-26
 ---
-
-# How does search actually work (IronHack)
 
 [←](../..)
 
