@@ -15,7 +15,7 @@ Talks and presentations done in recent times.
   {% for talk in talks %}
   {% assign dir = talk.dir | split: "/" %}
   {% if dir[1] == "en" %}
-  <li><a href="{{ talk.url }}">{{ talk.title }}</a> ({{ talk.date | date: "%Y-%m-%d" }})</li>
+  <li><a href=".{{ talk.url }}">{{ talk.title }}</a> ({{ talk.date | date: "%Y-%m-%d" }})</li>
   {% endif %}
   {% endfor %}
   </ul>
@@ -23,10 +23,10 @@ Talks and presentations done in recent times.
 - 🇫🇷
 
   <ul>
-  {% for talk in site.pages %}
+  {% for talk in talks %}
   {% assign dir = talk.dir | split: "/" %}
   {% if dir[1] == "fr" %}
-  <li><a href="{{ talk.url }}">{{ talk.title }}</a> ({{ talk.date | date: "%Y-%m-%d" }})</li>
+  <li><a href=".{{ talk.url }}">{{ talk.title }}</a> ({{ talk.date | date: "%Y-%m-%d" }})</li>
   {% endif %}
   {% endfor %}
   </ul>
